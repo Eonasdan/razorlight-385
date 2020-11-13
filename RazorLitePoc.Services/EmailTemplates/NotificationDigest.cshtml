@@ -1,0 +1,17 @@
+@using RazorLight
+@model List<RazorLitePoc.Services.EmailDigestVm>
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<div style="Margin-left: 20px;Margin-right: 20px;text-align:left;padding: 20px;">
+    <div style="mso-line-height-rule: exactly;mso-text-raise: 11px;vertical-align: middle;">
+        @foreach (var notification in Model)
+        {
+            <div>
+                <h3>@notification.Title</h3>
+                <p>@notification.Description</p>
+            </div>
+        }
+    </div>
+</div>

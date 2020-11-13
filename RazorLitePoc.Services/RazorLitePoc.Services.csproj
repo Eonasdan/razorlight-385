@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MailKit" Version="2.9.0" />
+      <PackageReference Include="RazorLight" Version="2.0.0-beta9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="EmailTemplates\_Layout.cshtml" />
+      <EmbeddedResource Include="EmailTemplates\_Layout.cshtml" />
+      <None Remove="EmailTemplates\NotificationDigest.cshtml" />
+      <EmbeddedResource Include="EmailTemplates\NotificationDigest.cshtml" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <!-- This group contains project properties for RazorLight on .NET Core -->
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+        <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+        <MvcRazorExcludeRefAssembliesFromPublish>false</MvcRazorExcludeRefAssembliesFromPublish>
+    </PropertyGroup>
+
+</Project>

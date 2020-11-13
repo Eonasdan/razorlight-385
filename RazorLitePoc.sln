@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLitePoc", "RazorLitePoc\RazorLitePoc.csproj", "{3162CDAE-0611-4C3B-B39A-72E82A72F792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLitePoc.Services", "RazorLitePoc.Services\RazorLitePoc.Services.csproj", "{A1C15BE3-C595-4DCA-B8B4-4743FE7DC1A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3162CDAE-0611-4C3B-B39A-72E82A72F792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3162CDAE-0611-4C3B-B39A-72E82A72F792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3162CDAE-0611-4C3B-B39A-72E82A72F792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3162CDAE-0611-4C3B-B39A-72E82A72F792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C15BE3-C595-4DCA-B8B4-4743FE7DC1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C15BE3-C595-4DCA-B8B4-4743FE7DC1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C15BE3-C595-4DCA-B8B4-4743FE7DC1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C15BE3-C595-4DCA-B8B4-4743FE7DC1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
